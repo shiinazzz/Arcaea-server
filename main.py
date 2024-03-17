@@ -178,7 +178,7 @@ def main():
         log_dict['handlers']['warning_file'] = generate_log_file_dict(
             'WARNING', './log/warning.log')
 
-    dictConfig(log_dict)
+    #dictConfig(log_dict)
 
     Connect.logger = app.logger
     if not FileChecker(app.logger).check_before_run():
