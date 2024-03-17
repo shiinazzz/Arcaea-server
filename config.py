@@ -20,7 +20,7 @@ class Config():
     游戏API地址前缀
     Game API's URL prefix
     '''
-    GAME_API_PREFIX = '/join/21'
+    GAME_API_PREFIX = '/evolution/23'
     '''
     --------------------
     '''
